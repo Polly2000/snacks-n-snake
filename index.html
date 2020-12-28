@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="eng">
+<head>
+    <meta charset="UTF-8">
+    <meta name=""
+          content="">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+    <title>snack & snake</title>
+</head>
+<body>
+<header><span class="name">snack & snake</span></header>
+<main>
+    <section class="game-over" id="game-over">
+        <div class="wrapper"></div>
+        <div class="pop-up">
+            <span class="title">game over :(</span>
+            <span class="end-score">score <span id="total-score" class="score-js"></span></span>
+            <input type="button" class="restart" value="restart" onclick="restart()">
+        </div>
+    </section>
+    <section class="container">
+        <span class="score">your score is <span id="score" class="score-js"></span></span>
+        <canvas id="game" width="400" height="400">
+        </canvas>
+    </section>
+</main>
+<footer><span class="credit">2020 zhvzk</span></footer>
+<script src="snake.js"></script>
+
+</body>
+</html>
