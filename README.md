@@ -1,2 +1,2 @@
 # snack-snake
-tryin' to get close to canvas.
+tryin' to get closer to canvas.
